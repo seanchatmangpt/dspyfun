@@ -1,0 +1,4 @@
+# dspyfun_config.yaml
+cluster_name: "sean-cluster"
+zone: "us-central1"
+project_id: "ai-cmd-ctr"

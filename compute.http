@@ -1,0 +1,11 @@
+### Test the compute endpoint with default parameter
+GET http://localhost:8000/compute
+
+### Test the compute endpoint with a specific parameter
+GET http://localhost:8000/compute?n=1000000
+
+### Test the io endpoint with default parameter
+GET http://localhost:8000/io
+
+### Test the io endpoint with a specific parameter
+GET http://localhost:8000/io?n=1000000
