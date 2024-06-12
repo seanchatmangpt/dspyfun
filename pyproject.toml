@@ -26,6 +26,8 @@ dspy-ai = "^2.4.9"
 dspygen = "^2024.5.29"
 confz = "^2.0.1"
 inquirer = "^3.2.4"
+inject = "^5.2.1"
+mistune = "^3.0.2"
 
 [tool.poetry.group.test.dependencies]  # https://python-poetry.org/docs/master/managing-dependencies/
 coverage = { extras = ["toml"], version = ">=7.4.4" }

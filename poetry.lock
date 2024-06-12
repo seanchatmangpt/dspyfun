@@ -2180,6 +2180,17 @@ files = [
 ]
 
 [[package]]
+name = "inject"
+version = "5.2.1"
+description = "Python dependency injection framework."
+optional = false
+python-versions = "*"
+files = [
+    {file = "inject-5.2.1-py2.py3-none-any.whl", hash = "sha256:e40a5b1bebd8a4050b6f98f3396f3de6e9e2e411ad2a2145f16f351cb6f54e51"},
+    {file = "inject-5.2.1.tar.gz", hash = "sha256:f7c305a75cc4e3a331d248e996f25783ba784b88d5a9b9f73c53eacaa6d76985"},
+]
+
+[[package]]
 name = "inquirer"
 version = "3.2.4"
 description = "Collection of common interactive command line user interfaces, based on Inquirer.js"
@@ -2901,6 +2912,17 @@ python-versions = ">=3.7"
 files = [
     {file = "mdurl-0.1.2-py3-none-any.whl", hash = "sha256:84008a41e51615a49fc9966191ff91509e3c40b939176e643fd50a5c2196b8f8"},
     {file = "mdurl-0.1.2.tar.gz", hash = "sha256:bb413d29f5eea38f31dd4754dd7377d4465116fb207585f97bf925588687c1ba"},
+]
+
+[[package]]
+name = "mistune"
+version = "3.0.2"
+description = "A sane and fast Markdown parser with useful plugins and renderers"
+optional = false
+python-versions = ">=3.7"
+files = [
+    {file = "mistune-3.0.2-py3-none-any.whl", hash = "sha256:71481854c30fdbc938963d3605b72501f5c10a9320ecd412c121c163a1c7d205"},
+    {file = "mistune-3.0.2.tar.gz", hash = "sha256:fc7f93ded930c92394ef2cb6f04a8aabab4117a91449e72dcc8dfa646a508be8"},
 ]
 
 [[package]]
@@ -6906,4 +6928,4 @@ test = ["big-O", "importlib-resources", "jaraco.functools", "jaraco.itertools", 
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.12,<4.0"
-content-hash = "c6bcc0d5d9b9d01025d0fe1957e5dec127d5469888cb967fb6ec46280bead27e"
+content-hash = "c21b0bccf28b64a52ac576e971975109b12a5624fbea6aeb778acc28b5a32a47"
